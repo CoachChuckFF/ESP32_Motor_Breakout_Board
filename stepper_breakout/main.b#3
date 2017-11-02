@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.7" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.127" altunitdist="mm" altunit="mm"/>
+<grid distance="0.01778" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.127" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -74,10 +74,10 @@
 </layers>
 <board>
 <plain>
-<wire x1="0" y1="0" x2="106.66" y2="0" width="0" layer="20"/>
-<wire x1="106.66" y1="0" x2="106.66" y2="102.54" width="0" layer="20"/>
-<wire x1="106.66" y1="102.54" x2="0" y2="102.54" width="0" layer="20"/>
-<wire x1="0" y1="102.54" x2="0" y2="0" width="0" layer="20"/>
+<wire x1="0" y1="0" x2="107" y2="0" width="0" layer="20"/>
+<wire x1="107" y1="0" x2="107" y2="103" width="0" layer="20"/>
+<wire x1="107" y1="103" x2="0" y2="103" width="0" layer="20"/>
+<wire x1="0" y1="103" x2="0" y2="0" width="0" layer="20"/>
 <text x="78.74" y="77.47" size="2.54" layer="21" font="vector" rot="R90">Motor 0</text>
 <text x="88.9" y="85.09" size="1.27" layer="21" font="vector">5V</text>
 <text x="86.36" y="88.138" size="1.27" layer="21" font="vector">SIG A</text>
